@@ -18,7 +18,7 @@ All the longitude and latitude data was used to call the function `makepoint` so
 ![Main Dashboard](Resources/routestaken.PNG)
 
 ## Bike Usage Trends by Month ##
-The data was arranged by month to show the general trend of usage during the year. There is a large spike during the summer which suggests that people are more likely to rent bikes when the weather is hot possibly to avoid being out in the heat as long as possible. Surprisingly there is no observable impact of stay-at-home orders due to the COVID-19 pandemic during this time.
+The data was arranged by month to show the general trend of usage during the year. Bike usage is up 2x overall but non-subscriber usage is up almost 5x during peak months. This shows that there is a group of customers that may only rent a bike out of necessity instead of regular use. There is still an opportunity to capitalize on converting these non-subscribers.
 
 ![Bike Usage](Resources/bikeusage.PNG)
 

@@ -18,7 +18,7 @@ All the longitude and latitude data was used to call the function `makepoint` so
 ![Main Dashboard](Resources/routestaken.PNG)
 
 ## Bike Usage Trends by Month ##
-The data was arranged by month to show the general trend of usage during the year. Bike usage is up 2x overall but non-subscriber usage is up almost 5x during peak months. This shows that there is a group of customers that may only rent a bike out of necessity instead of regular use. There is still an opportunity to capitalize on converting these non-subscribers.
+The data was arranged by month to show the general trend of usage during the year. Bike usage is up 2x overall but non-subscriber usage is up almost 5x during peak months from 2015 to 2020. This shows that there is a group of customers that may only rent a bike out of necessity instead of regular use.
 
 ![Bike Usage](Resources/bikeusage.PNG)
 

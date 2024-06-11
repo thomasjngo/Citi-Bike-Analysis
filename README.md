@@ -5,14 +5,15 @@ To analyze the Citi Bike usage data in New York City from 2015 and 2020 to obser
 
 **Data Preprocessing:**
 * Data is extracted from CSV files downloaded from [Citi Bike](https://citibikenyc.com/system-data)'s System Database for [2015](https://s3.amazonaws.com/tripdata/2015-citibike-tripdata.zip) and [2020](https://s3.amazonaws.com/tripdata/2020-citibike-tripdata.zip). (csv's should be placed in the resources folder)
-* Data was randomly sampled to meet the file size maximum allowed by Tableau Public software. 
+* `random_select.py` was created to process any csv files present in the `Resources` folder.
+* Data was randomly sampled to meet the file size requirements of Tableau Public software (currently set to 1,000,000 data points).
 * Trip time was provided in seconds and then converted into minutes to make the data more suitable for creation of visualizations.
-* Distance was calculated using the longitude and latitude data and then calling the function `DISTANCE([Origin],[Destination],'km')` to calculate the distance of each bike ride.
+* Distance was calculated using the longitude and latitude data and then calling the function `DISTANCE` to calculate the distance of each bike ride in kilometers.
 
 ![CSV Data](Resources/csvdata.PNG)
 
 ## Main Dashboard ##
-All the longitude and latitude data was used to call the function `makepoint([Start Station Latitude],[Start Station Longitude])` and `makepoint([End Station Latitude],[End Station Longitude])` so that each bike ride could be traced using `Makeline([Origin],[Destination])`. Data was then grouped by the start station name so that all the routes radiated out of a singular point like a flower. This helps give an idea of the final destination points.
+All the longitude and latitude data was used to call the function `makepoint` so that each bike ride could be traced using `makeline`. Data was then grouped by the start station name so that all the routes radiated out of a singular point like a flower. This helps give an idea of the route and final destination points.
 
 ![Main Dashboard](Resources/routestaken.PNG)
 

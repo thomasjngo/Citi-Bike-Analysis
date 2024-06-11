@@ -5,7 +5,7 @@ To analyze the Citi Bike usage data in New York City from 2015 and 2020 to note 
 
 **Data Preprocessing:**
 * Data is extracted from CSV files downloaded from [Citi Bike](https://citibikenyc.com/system-data)'s System Database for [2015](https://s3.amazonaws.com/tripdata/2015-citibike-tripdata.zip) and [2020](https://s3.amazonaws.com/tripdata/2020-citibike-tripdata.zip).
-* csv's should be placed in the `Resources` folder and then run `random_select.py`
+* Place csv files in the `Resources` folder and then run `random_select.py` for processing.
 * Data was randomly sampled to meet the file size requirements of Tableau Public software (currently set to 1,000,000 data points).
 * Trip time was provided in seconds and then converted into minutes to make the data more suitable for creation of visualizations.
 * Distance was calculated using the longitude and latitude data and then calling the function `DISTANCE` to calculate the distance of each bike ride in kilometers.

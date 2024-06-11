@@ -1,7 +1,7 @@
 # Citi Bike Analysis (Randomized Samples)
 
 ## Objective ##
-To analyze the Citi Bike usage data in New York City from 2015 and 2020 to observe any noticable trends in the data.
+To analyze the Citi Bike usage data in New York City from 2015 and 2020 to note any noticable trends in the data.
 
 **Data Preprocessing:**
 * Data is extracted from CSV files downloaded from [Citi Bike](https://citibikenyc.com/system-data)'s System Database for [2015](https://s3.amazonaws.com/tripdata/2015-citibike-tripdata.zip) and [2020](https://s3.amazonaws.com/tripdata/2020-citibike-tripdata.zip). (csv's should be placed in the resources folder)
@@ -23,7 +23,7 @@ The data was arranged by month to show the general trend of usage during the yea
 ![Bike Usage](Resources/bikeusage.PNG)
 
 ## User Breakdown ##
-Subscribers used the service over three times more than normal customers. However, the data suggests that subscribers used the service more frequently but for shorter trips compared to normal users.
+Aside from some outliers, the age group that mosts uses the bikes are gen X and millenials for subscribers and non-subscribers.
 
 ![User Breakdown](Resources/usertype.PNG)
 
@@ -42,6 +42,9 @@ The average distance traveled per bike trip is concentrated around 2km.
 ![Line Graph](Resources/linegraph.PNG)
 
 # Bikes Likely to be Repaired ##
-The dataset was then sorted by total distance traveled for the year and then filtered to show the bikes that have been used for 3km or more. These are most likely to need repair in the future. Most bikes traveled 1.5km or less.
+The dataset was filtered to show the bikes that have been used more. These are most likely to need repair in the future. 
 
 ![Bike Repair](Resources/bikerepair.PNG)
+
+## Conclusion ##
+People are most likely to rent bikes during the summer months possibly due to the increasing heat and the desire to minimize travel time. The rentals are up overall in 2020 compared to 2015, but more can be done to capitalize on converting the non-subscribers into paying for the service long term. Additionally, there seems to be little impact on rentals from the COVID-19 pandemic suggesting that business will hold strong in the future.

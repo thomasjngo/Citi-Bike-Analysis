@@ -23,7 +23,7 @@ The data was arranged by month to show the general trend of usage during the yea
 ![Bike Usage](Resources/bikeusage.PNG)
 
 ## User Breakdown ##
-Aside from some outliers, the age group that mosts uses the bikes are gen X and millenials for subscribers and non-subscribers.
+After filtering null values and the default year at sign up (1/1/1969), the age group that mosts uses the bikes are gen X and millenials for both subscribers and non-subscribers.
 
 ![User Breakdown](Resources/usertype.PNG)
 

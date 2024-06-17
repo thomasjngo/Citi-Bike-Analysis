@@ -30,7 +30,7 @@ After filtering null values and the default year at sign up (1/1/1969), the age 
 ![User Breakdown](Resources/usertype.PNG)
 
 ## Start/End Stations ##
-The start and end stations were grouped by their count in the dataset. The most popular start stations tend to be near areas where subway stations are too far away to reach by walking. End stations show a similar trend as they are often in the outskirts of the city away. 
+The start and end stations were grouped by their count in the dataset. The most popular start stations tend to be near areas where subway stations are too far away to reach by walking. End stations show a similar trend as they are often in the edges of the city. 
 
 ![Start Stations](Resources/startstations.PNG)
 

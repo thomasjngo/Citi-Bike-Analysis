@@ -3,7 +3,7 @@
 [Tableau Link](https://public.tableau.com/app/profile/thomas.ngo3259/viz/AnAnalysisofNYCCitiBikeUsage2015vs_2020/Story1)
 
 ## Objective ##
-To analyze the Citi Bike usage data in New York City from 2015 and 2020 to note any noticable trends in the data.
+To analyze the Citi Bike usage data in New York City from 2015 and 2020 to note any noticeable trends in the data.
 
 ## Data Preprocessing ##
 * Data is extracted from CSV files downloaded from [Citi Bike](https://citibikenyc.com/system-data)'s System Database for [2015](https://s3.amazonaws.com/tripdata/2015-citibike-tripdata.zip) and [2020](https://s3.amazonaws.com/tripdata/2020-citibike-tripdata.zip).
